@@ -11,7 +11,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'NanTu Core',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -72,7 +72,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/eryczou/nt-doc',
             },
           ],
         },
