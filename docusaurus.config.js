@@ -4,8 +4,8 @@ module.exports = {
   tagline: 'The tagline of my site',
   organizationName: 'eryczou', // Usually your GitHub org/user name.
   projectName: 'nt-doc', //
-  url: 'https://eryczou.github.io',
-  baseUrl: '/nt-doc/',
+  url: 'https://eryczou.netlify.com', // Url to your site with no trailing slash
+  baseUrl: '/', // Base director
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -67,10 +67,6 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/eryczou/nt-doc',
             },
@@ -89,12 +85,6 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
