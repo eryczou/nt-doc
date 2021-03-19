@@ -7,18 +7,30 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #7014cc;
+  --ifm-color-primary-dark: #6512b8;
+  --ifm-color-primary-darker: #5f11ad;
+  --ifm-color-primary-darkest: #4e0e8f;
+  --ifm-color-primary-light: #7b16e0;
+  --ifm-color-primary-lighter: #8119e8;
+  --ifm-color-primary-lightest: #9238eb;
+  --ifm-code-font-size: 90%;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #B88AE6;
+  --ifm-color-primary-dark: #8119e8;
+  --ifm-background-color: #1e2125;
+  --ifm-background-surface-color: #121212;
+}
+
+.navbar__title {
+  font-size: 1.5rem;
+  color: var(--ifm-color-primary);
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
+  background-color: rgb(133, 156, 216);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);

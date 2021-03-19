@@ -1,11 +1,10 @@
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
-slug: /
+id: qg_doc2
+title: Getting Started
+sidebar_label: Getting Started
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+This page provided step-by-step instructions on how to get started with NT Core platform.
 
 ## Markdown Syntax
 
