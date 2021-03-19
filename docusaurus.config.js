@@ -4,7 +4,7 @@ module.exports = {
   organizationName: 'eryczou', // Usually your GitHub org/user name.
   projectName: 'nt-doc', //
   url: 'https://eryczou.github.io',
-  baseUrl: '/',
+  baseUrl: '/nt-doc/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
